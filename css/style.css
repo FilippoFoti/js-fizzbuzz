@@ -1,0 +1,43 @@
+/* RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* MAIN */
+
+main {
+    background-color: rgba(8, 59, 76, 1);
+}
+
+.grid {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.box {
+    width: calc(100% / 10);
+    height: 100px;
+    background-color: rgba(19, 137, 178, 1);
+    border: 2px solid black;
+    font-size: 1.5rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.blue {
+    background-color: rgba(11, 214, 161, 1);
+}
+
+.red {
+    background-color: rgba(240, 70, 111, 1);
+}
+
+.yellow {
+    background-color: rgba(255, 209, 102, 1);
+}
