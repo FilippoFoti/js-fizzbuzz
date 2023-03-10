@@ -6,10 +6,24 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: #e6e6e6;
+}
+
 /* MAIN */
 
 main {
     background-color: rgba(8, 59, 76, 1);
+    font-weight: bold;
+}
+
+main h1 {
+    font-size: 6rem;
+    color: white;
 }
 
 .grid {
@@ -18,17 +32,17 @@ main {
 }
 
 .box {
-    width: calc(100% / 10);
-    height: 100px;
+    width: calc(100% / 10 - 2px);
+    height: 98px;
     background-color: rgba(19, 137, 178, 1);
     border: 2px solid black;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: black;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 1px;
 }
-
 
 .blue {
     background-color: rgba(11, 214, 161, 1);
@@ -40,4 +54,16 @@ main {
 
 .yellow {
     background-color: rgba(255, 209, 102, 1);
+}
+
+/* FOOTER */
+
+footer {
+    height: 75px;
+    background-color: #e6e6e6;
+}
+
+footer h2 {
+    color: black;
+    font-size: 1rem;
 }
